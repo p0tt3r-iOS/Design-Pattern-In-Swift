@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let myDragon = Dragon(imageName: "dragon", name: "Paul", rarity: .veryRare, species: "RedSpikes", coodinates: (latitude: 48.8, longitude: 2.3))
+        let myDragon = Dragon(imageName: "dragon", name: "Paul", rarity: .veryRare, species: "RedSpikes", coodinates: (latitude: 35.87, longitude: 128.6))
         
         let dragonViewModel = DragonViewModel(dragon: myDragon)
         
